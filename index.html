@@ -9,10 +9,10 @@
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="home">
+    <div id="home" class="nav-link home">
         <div class="container">
             <nav id="nav-menu">
-                <img src="images/logos.png" alt="logo" class="logo">
+                <img src="images/logos.png" alt="logo" class="logo" >
                 <ul id="sidemenu">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -27,17 +27,17 @@
             <div class="header-text">
                 <h1>Hey 👋</h1>
                 &nbsp;
-                <p>I'm <span> Swati Tanu. <br> </span> A passionate backend developer.</p>
+                <p>I'm <span id="user-detail-name"> Swati Tanu. <br> </span> A passionate backend developer.</p>
             </div>
         </div>
     </div> <!---------------------------------------About------------------------------------>
-    <div id="about" class="about section">
+    <div id="about" class="about section" class="nav-link about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
                     <img src="images/user.png" alt="image">
                 </div>
-                <div class="about-col-2">
+                <div class="about-col-2"  id="user-detail-intro">
                     <h1 class="sub-title" >About Me</h1>
                     &nbsp;
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus soluta molestias dolor fugiat impedit enim et odit voluptatibus inventore rerum nam deserunt at maiores voluptatem error, fuga, tempora itaque!</p>
@@ -75,7 +75,7 @@
     </div>
 
     <!--------------------------------------skills---------------------------------->
-    <div id="skills">
+    <div id="skills" class="nav-link skills">
         <div class="container">
             <h1 class="sub-title">Services</h1>
             <div class="services-list">
@@ -102,7 +102,7 @@
     </div>
     <!--------------------------------------Projects---------------------------------->
 
-    <div id="projects">
+    <div id="projects" class="nav-link projects">
         <div class="container">
             <h1 class="sub-title">Projects</h1>
             <div class="work-list">
@@ -135,7 +135,7 @@
     </div>
 
     <!--------------------------------------Contact---------------------------------->
-    <div id="contact">
+    <div id="contact" class="nav-link contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
