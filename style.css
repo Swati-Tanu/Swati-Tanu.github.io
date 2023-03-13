@@ -207,7 +207,7 @@ nav ul li a:hover::after{
 
 /*-----------------------------------Projects----------------------------------------*/
 
-#projects{
+.nav-link.projects{
     padding: 50px 0;
 }
 
