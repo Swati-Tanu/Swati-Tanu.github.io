@@ -221,14 +221,14 @@ nav ul li a:hover::after{
 .project-card{
     border-radius: 10px;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .project-card img{
     width: 100%;
     border-radius: 10px;
-    display: block;
-    transition: transform 0.5s;
+    /* display: block; */
+    /* transition: transform 0.5s; */
 }
 
 .layer{
@@ -239,7 +239,7 @@ nav ul li a:hover::after{
     position: absolute;
     left: 0;
     bottom: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -247,7 +247,7 @@ nav ul li a:hover::after{
     padding: 0 40px;
     text-align: center;
     font-size: 14px;
-    transition: height 0.5s;
+    /* transition: height 0.5s; */
 }
 
 .layer h3{
@@ -267,14 +267,14 @@ nav ul li a:hover::after{
     border-radius: 50%;
     text-align: center;
 }
-
+/* 
 .project-card:hover img{
     transform: scale(1.1);
-}
+} */
 
-.project-card:hover .layer{
+/* .project-card:hover .layer{
     height: 100%;
-}
+} */
 
 .btn{
     display: block;
@@ -285,7 +285,7 @@ nav ul li a:hover::after{
     border-radius: 6px;
     text-decoration: none;
     color: white;
-    transition: background 0.5s;
+    /* transition: background 0.5s; */
 }
 
 .btn:hover{
