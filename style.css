@@ -352,11 +352,15 @@ padding: 10px 10%;
     flex-basis: 60%;
 }
 
-.contact-left p{
+.contact-left a{
     margin-top: 30px;
 }
 
-.contact-left p i{
+.contact-left div{
+    display: grid;
+}
+
+.contact-left a i{
     color: #ff004f;
     margin-right: 15px;
     font-size: 25px;
