@@ -19,8 +19,9 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="images/my-cv.pdf" class="nav-link resume" view download class="btn btn2" id="resume-link-2">Resume</a></li>
-                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    <li title="RESUME" id="resume-button-1"><a class="nav-link resume" id="resume-link-1"
+                    href="/images/my-cv.pdf" download="Swati_Tanu_Resume" target="_blank"><i
+                        class="fa-solid fa-file-arrow-down"></i><span>Resume</span> </a></li>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
@@ -28,10 +29,9 @@
                 <h1>Hey 👋</h1>
                 &nbsp;
                 <p>I'm <span id="user-detail-name"> Swati Tanu. <br> </span> A passionate backend developer.</p>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/swati-tanu/" target="_blank"><i class="fab fa-linkedin" id="contact-linkedin"></i></a>
-                    <a href="https://github.com/Swati-Tanu" target="_blank"><i class="fab fa-github" id="contact-github"></i></a>
-                </div>
+                <div class="resumebtn">
+                <button id="resume-button-2" class="btn"><a id="resume-link-2" target="_blank" href='/images/my-cv.pdf' download="Swati_Tanu_Resume">Resume</a></button>
+            </div>
             </div>
         </div>
     </div> <!---------------------------------------About------------------------------------>
@@ -79,7 +79,7 @@
     <!--------------------------------------Projects---------------------------------->
 
     <div id="projects">
-        <h1>My Projects<i class="fa-solid fa-diagram-project"></i></h1>
+        <h1>Projects</h1>
         <div class="projects-body">
             <div class="project-card">
                 <div class="project-img">
@@ -226,7 +226,7 @@
     </div>
    <!--GitHub-->
    <div id="github">
-        <h1>My GitHub Stats&nbsp;<i class="fa-brands fa-git-alt"></i></h1>
+        <h1>GitHub Stats</h1>
         <div class="react-activity-calendar">
         </div>
         <div id="github-stats">
@@ -253,7 +253,6 @@
                     <a id="contact-linkedin" href="https://www.linkedin.com/in/swati-tanu/" target="_blank"><i class="fab fa-linkedin"></i>&nbsp;&nbsp;in/swati-tanu</a>
                     <a id="contact-github" href="https://github.com/Swati-Tanu" target="_blank"><i class="fab fa-github"></i>&nbsp;&nbsp;github.com/Swati-Tanu</a>
                     </div>
-                    <a href="images/my-cv.pdf" view download class="btn btn2" id="resume-link-1">Resume</a>
                 </div>
                 <div class="contact-right">
                     <form>
@@ -295,6 +294,14 @@
     function closemenu(){
         sidemenu.style.right = "-200px";
     }
+
+    document.getElementById('resume-link-1').addEventListener("click",()=>{
+  window.location.assign("https://drive.google.com/file/d/1qHy4jrzCwCvGgzu5NOmTPcIdGJjali6P/view?usp=share_link", target="_blank");
+})
+
+document.getElementById('resume-link-2').addEventListener("click",()=>{
+  window.location.assign("https://drive.google.com/file/d/1qHy4jrzCwCvGgzu5NOmTPcIdGJjali6P/view?usp=share_link", target="_blank");
+})
 
     </script>
 </body>
