@@ -3,9 +3,6 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-}
-
-html{
     scroll-behavior: smooth;
 }
 
@@ -25,6 +22,14 @@ body{
 
 .container{
     padding: 10px 10%;
+    
+}
+
+#nav-menu{
+/* position: fixed; */
+background-color: black;
+/* width: 85%; */
+
 }
 
 nav{
@@ -32,6 +37,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 .logo{
@@ -92,6 +98,8 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-left: 100px;
+    margin: 60px 0;
 }
 
 #github{
@@ -124,14 +132,15 @@ padding: 10px 10%;
 }
 
 .about-col-2{
-    padding-top: 50px;
+    /* padding-top: 50px; */
     flex-basis: 65%;
     text-align: justify;
     line-height: 1.5;
+    
 }
 
 .about-col-2 p{
-    width: 70%;
+    width: 80%;
 }
 
 .sub-title{
@@ -229,6 +238,29 @@ padding: 10px 10%;
 .services-list div:hover{
     background: #ff004f;
     transform: translateY(-10px);
+}
+.skills-card{
+    display: flex;
+}
+
+.skills-card>div{
+    /* margin: auto; */
+    text-align: center;
+    justify-content: space-between;
+}
+#resume-button-2{
+background: #ff004f;
+    border-radius: 10px;
+    border: none;
+    width: 17%;
+    height: 45px;
+    margin-top: 20px;
+}
+
+#resume-button-2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
 /*-----------------------------------Projects----------------------------------------*/
@@ -387,6 +419,8 @@ padding: 10px 10%;
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
+    border-radius: 10px;
+    border: none;
 }
 
 .contact-right form{

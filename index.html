@@ -20,12 +20,12 @@
                     <li><a href="#projects" class="nav-link projects" >Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li title="RESUME" id="resume-button-1"><a class="nav-link resume" id="resume-link-1"
-                    href="/images/my-cv.pdf" download="Swati_Tanu_Resume" target="_blank"><i
-                        class="fa-solid fa-file-arrow-down"></i><span>Resume</span> </a></li>
+                    href="/images/my-cv.pdf" download="Swati_Tanu_Resume" target="_blank">Resume</a></li>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
+                &nbsp;
                 <h1>Hey 👋</h1>
                 &nbsp;
                 <p>I'm <span id="user-detail-name"> Swati Tanu. <br> </span> A passionate backend developer.</p>
@@ -35,14 +35,14 @@
             </div>
         </div>
     </div> <!---------------------------------------About------------------------------------>
-    <div id="about">
-        <div class="container"><h1 class="sub-title" class="nav-link about" class="about section" >About Me</h1>
+    <div id="about" class="about section">
+        <div class="container"><h1 class="sub-title" class="nav-link about" class="about section">About Me</h1>
             <div class="row">
                 <div class="about-col-1">
                     <img src="images/Swati.png" alt="image" class="home-img">
                 </div>
                 <div class="about-col-2"  id="user-detail-intro">
-                    <p>I'm a T-Shaped developer mainly focused on Backend. I'm highly inclined towards web development, I've built more than 10 projects both in the team as well as individually, in the span of 8 months. I have a good command of JavaScript and Node.js. I am proficient in developing full-stack web applications keeping the responsiveness and interactivity of the applications in mind. Problem-solving mindset with a goal to optimize my application for better stability and speed.
+                    <p>A T-Shaped developer mainly focused on Backend. Highly inclined towards web development, built more than 10 projects both in the team as well as individually, in the span of 8 months. Have a good command of JavaScript and Node.js. Proficient in developing full-stack web applications keeping the responsiveness and interactivity of the applications in mind. Problem-solving mindset with a goal to optimize the application for better stability and speed.
                     </p>
                 </div>
             </div>
@@ -55,31 +55,28 @@
             <h1 class="sub-title">Skills</h1>
             <div class="services-list">
                 <div class="skills-card">
-                    <!-- <i class="fas fa-code"></i> -->
-                    <h2 class="skills-card-name">Front End</h2>
-                    <p class="skills-card-img">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ullam.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div class="skills-card">
-                    <!-- <i class="fas fa-crop-alt"></i> -->
-                    <h2 class="skills-card-name">Back End</h2>
-                    <p class="skills-card-img">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ullam.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div class="skills-card">
-                    <!-- <i class="fab fa-app-store"></i> -->
-                    <h2 class="skills-card-name">Tools</h2>
-                    <i class="fa-brands fa-square-js"></i>
-                    <p class="skills-card-img">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ullam.</p>
-                    <a href="#">Learn More</a>
+                    <div>
+                    <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"" alt="HTML">
+                    <p>HTML</p>
+                    </div>
+                    <div>
+                    <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"" alt="HTML">
+                    <p>HTML</p>
+                    </div>
+                    <div>
+                    <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"" alt="HTML">
+                    <p>HTML</p>
+                    </div>
+                    <div>
+
+                </div>                    
                 </div>
             </div>
         </div>
-    </div>
     <!--------------------------------------Projects---------------------------------->
 
     <div id="projects">
-        <h1>Projects</h1>
+        <h1 class="sub-title">Projects</h1>
         <div class="projects-body">
             <div class="project-card">
                 <div class="project-img">
@@ -226,7 +223,7 @@
     </div>
    <!--GitHub-->
    <div id="github">
-        <h1>GitHub Stats</h1>
+        <h1 class="sub-title">GitHub Stats</h1>
         <div class="react-activity-calendar">
         </div>
         <div id="github-stats">
@@ -295,7 +292,7 @@
         sidemenu.style.right = "-200px";
     }
 
-    document.getElementById('resume-link-1').addEventListener("click",()=>{
+document.getElementById('resume-link-1').addEventListener("click",()=>{
   window.location.assign("https://drive.google.com/file/d/1qHy4jrzCwCvGgzu5NOmTPcIdGJjali6P/view?usp=share_link", target="_blank");
 })
 
