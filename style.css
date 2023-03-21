@@ -26,10 +26,10 @@ body{
 }
 
 #nav-menu{
-/* position: fixed; */
-background-color: black;
-/* width: 85%; */
-
+position: fixed;
+background-color: #262626;
+width: 100%;
+padding: 0px 30px;
 }
 
 nav{
@@ -41,8 +41,9 @@ nav{
 }
 
 .logo{
-    margin-top: 20px;
+    /* margin-top: 10px; */
     width: 140px;
+    /* height: 100px; */
 }
 
 nav ul li{
