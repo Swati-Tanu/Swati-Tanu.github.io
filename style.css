@@ -237,15 +237,17 @@ padding: 10px 10%;
 }
 
 .services-list div:hover{
-    background: #ff004f;
+    /* background: #ff004f; */
     transform: translateY(-10px);
 }
 .skills-card{
+    /* background: #ff004f; */
     display: flex;
 }
 
 .skills-card>div{
     /* margin: auto; */
+    background: #ff004f;
     text-align: center;
     justify-content: space-between;
 }
@@ -450,10 +452,11 @@ form .btn2{
 .copyright{
     width: 100%;
     text-align: center;
-    padding: 25px 0;
-    background: #262626;
+    padding: 20px 0;
+    /* padding: 0px 30px; */
+    background: rgb(13, 13, 10);
     font-weight: 300;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .copyright i{
