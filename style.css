@@ -29,7 +29,7 @@ body{
 position: fixed;
 background-color: #262626;
 width: 100%;
-padding: 0px 30px;
+padding: 0px 50px;
 }
 
 nav{
@@ -402,6 +402,10 @@ background: #ff004f;
 
 .contact-left a{
     margin-top: 30px;
+        color: #ababab;
+            margin-right: 15px;
+            text-decoration: none;
+    
 }
 
 .contact-left div{
