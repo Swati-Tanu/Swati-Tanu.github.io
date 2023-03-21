@@ -326,8 +326,21 @@ background: #ff004f;
     text-align: center;
 }
 
+.project-card :hover{
+    background-color: #ff004f;
+        transform: translateY(-5px);
+}
+.project-buttons>a{
+    text-decoration: none;
+}
+
+
+.project-info>h3{
+        margin-top: 10px;
+}
+
 .project-info>p {
-    margin-top: 10px;
+    margin: 10px;
 }
 
 .project-tech-stack {
