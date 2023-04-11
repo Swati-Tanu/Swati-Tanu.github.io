@@ -1,0 +1,211 @@
+/* -------------MEDIA QUERIES ---------- */
+@media all and (min-width:1200px){
+    #navbar-menu{
+        display: flex;
+    }
+}
+
+@media all and (min-width:701px) and (max-width:1200px){
+    #nav-cont{
+        width:90%;
+    }
+    #nav-name{
+        /* border:1px solid red; */
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #navbar-menu{
+        width:50%;
+        font-size: 16px;
+        display: flex;
+    }
+    .home-left{
+        font-size: 12px;
+        padding-left: 7%;
+        padding-top: 4%;
+    }
+    #resume-button-2{
+        font-size: 15px;
+        margin-top:10px;
+        padding:5px 12px;
+    }
+    .about-body{
+        display: block;
+        margin:75px auto;
+        text-align: center;
+    }
+    .about-left{
+        /* border:1px solid red; */
+        width:30%;
+        margin:auto;
+    }
+    .about-details{
+        /* border:1px solid red; */
+        width:100%;
+        margin:20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .skills-body{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:30px 30px; 
+    }
+    #github-stats{
+        /* border:1px solid black; */
+        width:70%;
+        margin:50px auto;
+        display: block;
+    }
+    #github-stats>div{
+        width:100%;
+        margin: 20px auto;
+        /* border:1px solid red; */
+    }
+    .project-card{
+        display: block;
+    }
+    .project-img{
+        width:100%;
+    }
+    .project-info{
+        margin-top: 20px;
+        width:100%;
+    }
+    .contact-body{
+        /* border:1px solid black; */
+        width:70%;
+        margin: 60px auto;
+        display: block;   
+    }
+    .contact-text{
+        width: 100%;
+        margin-top:15px; 
+    }
+    #contact-img{
+        width:100%;
+    } 
+}
+
+@media all and (min-width:300px) and (max-width:700px){
+    #hamb{
+        display: block;
+        font-size: 20px;
+        color:#6dc2b0;
+    }
+    #nav-cont{
+        /* border: 1px solid red; */
+        width:90%;
+    }
+    #navbar-menu{
+        border:none;
+        /* border: 2px solid #86b3d1; */
+        border-radius: 5px;
+        position: absolute;
+        left:0;
+        top:80%;
+        width:30%;
+        text-align: center;
+        display:none;
+        background-color: #05386b;
+    }
+    #nav-name{
+        /* border:1px solid red; */
+        font-size: 17px;
+        font-weight: 500;
+    }
+    #resume-button-1{
+        font-size: 17px;
+    }
+    #navbar-menu>li{
+        border-bottom: 2px solid #6dc2b0;
+        padding:2px 0;
+    }
+    .home-left{
+        width:40%;
+        font-size: 8px;
+        padding-left: 7%;
+        padding-top: 4%;
+    }
+    #resume-button-2{
+        font-size: 10px;
+        margin-top:10px;
+        padding:3px 8px;
+    }
+    .home-right{
+        width:60%;
+    }
+    .about-body{
+        display: block;
+        margin:75px auto;
+        text-align: center;
+    }
+    .about-left{
+        /* border:1px solid red; */
+        width:55%;
+        margin:auto;
+    }
+    .about-details{
+        /* border:1px solid red; */
+        width:100%;
+        margin:20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #resume-link-2{
+        width:50%;
+        margin:15px auto;
+    }
+    .skills-body{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:30px 30px; 
+    }
+    #github-stats{
+        /* border:1px solid black; */
+        width:70%;
+        margin:50px auto;
+        display: block;
+    }
+    #github-stats>div{
+        width:100%;
+        margin: 20px auto;
+        /* border:1px solid red; */
+    }
+    .project-card{
+        /* border:2px solid red; */
+        display: flex;
+        flex-direction: column;
+        padding:12px;
+    }
+    .project-img{
+        width:100%;
+    }
+    .project-info{
+        margin-top: 15px;
+        width:100%;
+    }
+    .project-tech-stack{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+    }
+    .project-buttons{
+        width:70%;
+    }
+    .contact-body{
+        /* border:1px solid black; */
+        width:90%;
+        margin: 60px auto;
+        display: block;   
+    }
+    .contact-text{
+        width: 100%;
+        margin-top:15px; 
+    }
+    #contact-img{
+        width:100%;
+    } 
+}
