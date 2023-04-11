@@ -426,7 +426,7 @@ button:active {
     border-radius: 10px;
 }
 
-.contact-right form {
+.contact-left form {
     width: 80%;
 }
 
@@ -441,6 +441,7 @@ form textarea {
     color: #fff;
     font-size: 18px;
     border-radius: 6px;
+    
 }
 
 form textarea {
@@ -458,6 +459,7 @@ form .btn2 {
     background-color: skyblue;
     color: black;
     transition: transform .2s;
+    
 
 }
 

@@ -1,16 +1,17 @@
-/* -------------MEDIA QUERIES ---------- */
+/* ----------------------------------- Responsiveness ---------------------------- */
+
+/*-------------------------------------For Large Screen------------------------------*/
 @media all and (min-width:1200px){
     #navbar-menu{
         display: flex;
     }
 }
-
+/*-----------------------------------For Mid-Size Screen-----------------------------*/
 @media all and (min-width:701px) and (max-width:1200px){
     #nav-cont{
         width:90%;
     }
     #nav-name{
-        /* border:1px solid red; */
         font-size: 20px;
         font-weight: 500;
     }
@@ -35,12 +36,10 @@
         text-align: center;
     }
     .about-left{
-        /* border:1px solid red; */
         width:30%;
         margin:auto;
     }
     .about-details{
-        /* border:1px solid red; */
         width:100%;
         margin:20px auto;
         display: flex;
@@ -53,7 +52,6 @@
         gap:30px 30px; 
     }
     #github-stats{
-        /* border:1px solid black; */
         width:70%;
         margin:50px auto;
         display: block;
@@ -61,7 +59,6 @@
     #github-stats>div{
         width:100%;
         margin: 20px auto;
-        /* border:1px solid red; */
     }
     .project-card{
         display: block;
@@ -74,7 +71,6 @@
         width:100%;
     }
     .contact-body{
-        /* border:1px solid black; */
         width:70%;
         margin: 60px auto;
         display: block;   
@@ -88,30 +84,28 @@
     } 
 }
 
+/*-------------------------------------For Small Screen------------------------------*/
 @media all and (min-width:300px) and (max-width:700px){
     #hamb{
         display: block;
         font-size: 20px;
-        color:#6dc2b0;
+        color:skyblue;
     }
     #nav-cont{
-        /* border: 1px solid red; */
         width:90%;
     }
     #navbar-menu{
         border:none;
-        /* border: 2px solid #86b3d1; */
         border-radius: 5px;
         position: absolute;
         left:0;
         top:80%;
-        width:30%;
+        width:50%;
         text-align: center;
         display:none;
-        background-color: #05386b;
+        background-color: black;
     }
     #nav-name{
-        /* border:1px solid red; */
         font-size: 17px;
         font-weight: 500;
     }
@@ -119,8 +113,8 @@
         font-size: 17px;
     }
     #navbar-menu>li{
-        border-bottom: 2px solid #6dc2b0;
-        padding:2px 0;
+        border-bottom: 2px solid skyblue;
+        padding:15px 0;
     }
     .home-left{
         width:40%;
@@ -142,12 +136,10 @@
         text-align: center;
     }
     .about-left{
-        /* border:1px solid red; */
         width:55%;
         margin:auto;
     }
     .about-details{
-        /* border:1px solid red; */
         width:100%;
         margin:20px auto;
         display: flex;
@@ -164,7 +156,6 @@
         gap:30px 30px; 
     }
     #github-stats{
-        /* border:1px solid black; */
         width:70%;
         margin:50px auto;
         display: block;
@@ -172,10 +163,8 @@
     #github-stats>div{
         width:100%;
         margin: 20px auto;
-        /* border:1px solid red; */
     }
     .project-card{
-        /* border:2px solid red; */
         display: flex;
         flex-direction: column;
         padding:12px;
@@ -196,7 +185,6 @@
         width:70%;
     }
     .contact-body{
-        /* border:1px solid black; */
         width:90%;
         margin: 60px auto;
         display: block;   
