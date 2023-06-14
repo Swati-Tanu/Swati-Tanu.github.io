@@ -346,12 +346,12 @@ button:active {
 }
 
 .project-tech-stack>div>img {
-    width: 100%;
+    width: 90%;
     height: 55px;
 }
 
 .project-buttons {
-    width: 50%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -380,9 +380,10 @@ button:active {
     background-color: black;
     border: none;
     color: white;
-    padding: 5px 15px;
+    padding: 0.8rem 1rem;
     border-radius: 5px;
     font-size: 17px;
+    font: bold;
 }
 
 /* ----------------------------- Projects section ends here---------------------- */
