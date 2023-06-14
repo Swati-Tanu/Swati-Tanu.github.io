@@ -12,7 +12,7 @@ hamburger.addEventListener("click", (e)=>{
 
 //Function for Resume to open on the next tab
 function resume(){
-    window.open("./Swati Tanu.pdf","_blank")
+    window.open("./Swati-Tanu-Resume.pdf","_blank")
   }
 
 // Third-party library to disply GitHub Calender
